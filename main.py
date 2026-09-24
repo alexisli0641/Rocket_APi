@@ -32,3 +32,4 @@ def create_new_player(data: PlayerCreate, db: Session = Depends(get_db)):
     db.refresh(player_instance)
     return player_instance
 
+# Comment 
