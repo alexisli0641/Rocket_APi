@@ -1,5 +1,5 @@
 # importing the base from db.py so that python can read and 
-from db import Base
+from backend.db import Base
 from sqlalchemy import Column, String, Integer, Numeric, ForeignKey
 from sqlalchemy.orm import relationship 
 

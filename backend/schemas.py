@@ -11,10 +11,7 @@ class PlayerBase(BaseModel):
 
 # Schema for creating a player profile instance
 class PlayerCreate(PlayerBase):
-    player_name: str
-    player_age: int
-    height_inches: int
-
+    pass
 
 # Define get book
 # Here we need the ID of player to update or get player 
@@ -34,7 +31,7 @@ class PlayerStatsBase(BaseModel):
 class PlayerStatisticsCreate(PlayerStatsBase):
     player_id: int
 
-# Define get book
+# Define get play
 # Here we need the ID of player to update or get player 
 class Player_Statistics(PlayerStatsBase):
     stat_id : int
