@@ -27,3 +27,4 @@ def get_players(db: Session):
 
 def get_player_statistics(db:Session):
     return db.query(Player_Statistics).all()
+

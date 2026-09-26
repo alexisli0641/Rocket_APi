@@ -1,0 +1,20 @@
+[project]
+name = "rocket-api"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "alexisli0641", email = "alexisli0641@gmail.com" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "httpx>=0.28.1",
+    "pandas>=3.0.6",
+]
+
+[project.scripts]
+rocket-api = "rocket_api:main"
+
+[build-system]
+requires = ["uv_build>=0.12.18,<0.13.0"]
+build-backend = "uv_build"
